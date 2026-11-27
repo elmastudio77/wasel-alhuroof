@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>سياسة خصوصية وصّل الحروف</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: sticky bar with a sliding language switch, one reading column; gold rule marks each section */
+:root{--bg:#f6f4ef;--fg:#1b2238;--dim:#5a6279;--card:#ffffff;--line:#e0dccf;--gold:#b7791f;--navy:#14213f;--onNavy:#f4ead0;--thumb:#f0c262;--onThumb:#1b1405}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1428;--fg:#e9ecf5;--dim:#9aa3bd;--card:#141d38;--line:#25305a;--gold:#f0c262;--navy:#0a1020;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d1428;--fg:#e9ecf5;--dim:#9aa3bd;--card:#141d38;--line:#25305a;--gold:#f0c262;--navy:#0a1020;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-padding-top:80px}
+body{background:var(--bg);color:var(--fg);font:400 16px/1.9 "IBM Plex Sans Arabic",system-ui,sans-serif;margin:0;padding-block:0 48px}
+body[data-l="en"]{font-family:Inter,system-ui,sans-serif;line-height:1.7}
+.bar{position:sticky;top:0;z-index:5;background:var(--navy);color:var(--onNavy);padding:calc(env(safe-area-inset-top,0px) + 10px) max(16px,env(safe-area-inset-right,0px)) 10px max(16px,env(safe-area-inset-left,0px))}
+.bar .in{max-width:720px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;direction:ltr}
+.brand{font:700 13px/1 Inter,system-ui,sans-serif;letter-spacing:.14em}
+.sw{position:relative;display:grid;grid-template-columns:1fr 1fr;width:188px;padding:3px;border-radius:99px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.16);direction:ltr}
+.sw .th{position:absolute;inset:3px auto 3px 3px;width:calc(50% - 3px);border-radius:99px;background:var(--thumb);transition:transform .28s cubic-bezier(.3,.9,.3,1)}
+body[data-l="en"] .sw .th{transform:translateX(100%)}
+.sw button{position:relative;z-index:1;border:0;background:none;font:600 14px/1 "IBM Plex Sans Arabic",Inter,sans-serif;color:var(--onNavy);padding:10px 0;border-radius:99px;cursor:pointer;transition:color .2s}
+.sw button[aria-pressed="true"]{color:var(--onThumb)}
+.sw button:focus-visible{outline:2px solid var(--onNavy);outline-offset:2px}
+.hero{background:var(--navy);color:var(--onNavy);padding:26px max(16px,env(safe-area-inset-right,0px)) 30px max(16px,env(safe-area-inset-left,0px))}
+.hero .in{max-width:720px;margin:0 auto}
+h1{font-size:28px;line-height:1.35;margin:0 0 4px;text-wrap:balance}
+.hero p{margin:0;opacity:.85;font-size:14px}
+main{max-width:720px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-right,0px)) 0 max(16px,env(safe-area-inset-left,0px))}
+section{padding:20px 0;border-top:1px solid var(--line)}
+section:first-child{border-top:0}
+h2{font-size:19px;margin:0 0 6px;display:flex;align-items:center;gap:10px}
+h2::before{content:"";width:4px;height:20px;border-radius:2px;background:var(--gold);flex:none}
+p,li{margin:6px 0}
+ul{padding-inline-start:22px;margin:6px 0}
+a{color:var(--gold);overflow-wrap:anywhere}
+.mail{display:inline-block;direction:ltr;unicode-bidi:isolate;font:500 15px Inter,system-ui,sans-serif;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:2px 10px;user-select:all;overflow-wrap:anywhere}
+.pane{animation:fade .3s ease}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.pane,.sw .th{animation:none;transition:none}}
+</style>
+</head>
+<body data-l="ar">
+<div class="bar"><div class="in"><span class="brand">ELMA STUDIO</span>
+<div class="sw" role="group" aria-label="Language / اللغة"><span class="th"></span><button id="bAr" type="button" aria-pressed="true">العربية</button><button id="bEn" type="button" aria-pressed="false">English</button></div></div></div>
+<div id="ar" class="pane" dir="rtl" lang="ar">
+<div class="hero"><div class="in"><h1>سياسة الخصوصية للعبة «وصّل الحروف»</h1><p>آخر تحديث: 27 نوفمبر 2026</p></div></div>
+<main>
+<section><h2>من نحن</h2>
+<p>«وصّل الحروف» لعبة كلمات عربية على أندرويد، يطوّرها ELMA STUDIO. تشرح هذه الصفحة ما تحفظه اللعبة وما يجمعه الإعلان الذي تعرضه.</p></section>
+
+<section><h2>ما الذي نجمعه</h2>
+<p>لا نجمع نحن أي بيانات عنك. اللعبة لا تحتوي على حسابات ولا تسجيل دخول، ولا ترسل شيئاً إلى خادم خاص بنا.</p>
+<p>يُحفظ تقدّمك (المراحل، النجوم، التلميحات، الإعدادات) على جهازك فقط. يُحذف هذا الحفظ عند إزالة اللعبة أو مسح بياناتها من إعدادات الهاتف، ولا يمكننا استرجاعه.</p></section>
+
+<section><h2>الإعلانات</h2>
+<p>تعرض اللعبة إعلانات عبر Google AdMob، وهو إعلان مكافأة تشاهده اختيارياً مقابل تلميح، ولا تظهر إعلانات أثناء اللعب. قد تجمع Google وشركاؤها عبر الإعلان بيانات مثل:</p>
+<ul>
+<li>معرّف الإعلانات في جهازك</li>
+<li>عنوان IP وبيانات تقريبية عن الجهاز والتطبيق</li>
+<li>تفاعلك مع الإعلانات وبيانات الأعطال والأداء</li>
+</ul>
+<p>تستعمل Google هذه البيانات لعرض الإعلانات وقياس أدائها ومنع الاحتيال. تفاصيل ذلك في <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">كيف تستخدم Google البيانات من مواقع وتطبيقات شركائها</a>.</p>
+<p>في البلدان التي يشترط قانونها موافقتك، مثل الاتحاد الأوروبي والمملكة المتحدة، تعرض اللعبة نموذج موافقة قبل عرض الإعلانات المخصّصة. يمكنك في أي وقت إعادة ضبط معرّف الإعلانات أو إيقاف تخصيص الإعلانات من إعدادات أندرويد (الخصوصية ← الإعلانات)، ومن إعدادات اللعبة (خيارات الإعلانات) حيث تظهر.</p></section>
+
+<section><h2>المشاركة</h2>
+<p>عند ضغطك «مشاركة» ترسل اللعبة نصاً قصيراً بنتيجتك إلى التطبيق الذي تختاره أنت. لا نرى هذا النص ولا نحفظه.</p></section>
+
+<section><h2>الأذونات</h2>
+<p>تستعمل اللعبة الاتصال بالإنترنت لعرض الإعلانات فقط، والاهتزاز عند اللمس. وتعمل المراحل والألعاب بلا إنترنت. لا تطلب اللعبة الكاميرا ولا الموقع ولا الميكروفون ولا جهات الاتصال.</p></section>
+
+<section><h2>الأطفال</h2>
+<p>اللعبة موجّهة للمراهقين والكبار، وليست موجّهة للأطفال دون 13 سنة، ولا نجمع عمداً بيانات منهم.</p></section>
+
+<section><h2>حذف بياناتك</h2>
+<p>بياناتنا الوحيدة هي تقدّمك على جهازك، وتحذفها بإزالة اللعبة أو مسح بياناتها. أما بيانات الإعلانات فتديرها Google، ويمكنك التحكم بها من إعدادات حسابك وجهازك.</p></section>
+
+<section><h2>تغيير هذه السياسة</h2>
+<p>قد نحدّث هذه الصفحة عند تغيّر اللعبة أو القوانين، ويظهر تاريخ آخر تحديث في أعلاها.</p></section>
+
+<section><h2>تواصل معنا</h2>
+<p>لأي سؤال عن الخصوصية: <span class="mail">elmastudio77@gmail.com</span></p></section>
+
+
+</main></div>
+<div id="en" class="pane" dir="ltr" lang="en" hidden>
+<div class="hero"><div class="in"><h1>Wasel Alhuroof: Privacy Policy</h1><p>ELMA STUDIO · Last updated: November 27, 2026</p></div></div>
+<main>
+<section><h2>Who we are</h2>
+<p>Wasel Alhuroof («وصّل الحروف») is an Arabic word game for Android developed by ELMA STUDIO. This page explains what the game stores and what its ads collect.</p></section>
+
+<section><h2>What we collect</h2>
+<p>We do not collect any data about you. The game has no accounts or sign-in, and it does not send anything to a server of ours.</p>
+<p>Your progress (levels, stars, hints, settings) is stored on your device only. It is deleted when you uninstall the game or clear its data in your phone settings, and we cannot recover it.</p></section>
+
+<section><h2>Ads</h2>
+<p>The game shows ads through Google AdMob, an optional rewarded ad you can watch in exchange for a hint. No ads appear during gameplay. Google and its partners may collect through ads:</p>
+<ul>
+<li>your device's advertising ID</li>
+<li>your IP address and approximate device and app information</li>
+<li>your interactions with ads, plus crash and performance data</li>
+</ul>
+<p>Google uses this data to serve and measure ads and to prevent fraud. See <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from sites or apps that use its services</a>.</p>
+<p>Where the law requires your consent, such as in the European Union and the United Kingdom, the game shows a consent form before showing personalized ads. You can reset your advertising ID or turn off ad personalization at any time in Android settings (Privacy → Ads), and reopen your consent choices from the game's Settings (Ad options) where shown.</p></section>
+
+<section><h2>Sharing</h2>
+<p>When you tap Share, the game sends a short text with your result to the app you choose. We do not see or store this text.</p></section>
+
+<section><h2>Permissions</h2>
+<p>The game uses the internet only to show ads, and vibration for touch feedback. Levels and games work offline. It does not request your camera, location, microphone or contacts.</p></section>
+
+<section><h2>Children</h2>
+<p>The game is intended for teens and adults and is not directed to children under 13. We do not knowingly collect data from them.</p></section>
+
+<section><h2>Deleting your data</h2>
+<p>The only data we hold is your progress on your device. Delete it by uninstalling the game or clearing its data. Ad data is handled by Google, and you can manage it in your Google account and device settings.</p></section>
+
+<section><h2>Changes to this policy</h2>
+<p>We may update this page when the game or the law changes. The date at the top shows the latest update.</p></section>
+
+<section><h2>Contact</h2>
+<p>For any privacy question: <span class="mail">elmastudio77@gmail.com</span></p></section>
+
+</main></div>
+<script>
+(function(){
+var b=document.body,A=document.getElementById('ar'),E=document.getElementById('en'),ba=document.getElementById('bAr'),be=document.getElementById('bEn');
+function set(l,keep){
+ var en=l==='en';b.setAttribute('data-l',l);A.hidden=en;E.hidden=!en;
+ ba.setAttribute('aria-pressed',String(!en));be.setAttribute('aria-pressed',String(en));
+ document.documentElement.lang=l;document.documentElement.dir=en?'ltr':'rtl';
+ document.title=en?'Wasel Alhuroof Privacy Policy':'سياسة خصوصية وصّل الحروف';
+ try{localStorage.setItem('pl',l)}catch(e){}
+ if(!keep){try{history.replaceState(null,'','#'+l)}catch(e){location.hash=l}window.scrollTo(0,0)}
+}
+function pick(){
+ var h=(location.hash||'').slice(1);if(h==='en'||h==='ar')return h;
+ try{var s=localStorage.getItem('pl');if(s==='en'||s==='ar')return s}catch(e){}
+ return /^ar/i.test(navigator.language||'')?'ar':'en';
+}
+ba.onclick=function(){set('ar')};be.onclick=function(){set('en')};
+window.addEventListener('hashchange',function(){var h=location.hash.slice(1);if(h==='en'||h==='ar')set(h,true)});
+set(pick(),true);
+})();
+</script>
+</body>
+</html>
